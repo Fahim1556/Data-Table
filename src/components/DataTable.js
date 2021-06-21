@@ -4,7 +4,6 @@ import { MDBTable, MDBTableBody, MDBTableHead } from "mdbreact";
 
 const DataTable = ({ data, setData }) => {
 
-const [showData, setShowData] = useState(false);
 
   const handleIsCreateChange = (index) => {
     let newData = [...data];
